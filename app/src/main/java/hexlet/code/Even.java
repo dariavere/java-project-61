@@ -56,7 +56,9 @@ public class Even {
     private static String getCorrectAnswer(int number) {
         if (isEven(number)) {
             return "yes";
-        } else return "no";
+        } else {
+            return "no";
+        }
     }
 }
 

@@ -18,6 +18,8 @@ public class App {
         } else if (choice == 2) {
             startEvenGame();
             scanner.close();
-        } else scanner.close();
+        } else {
+            scanner.close();
+        }
     }
 }
